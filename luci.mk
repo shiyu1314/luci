@@ -248,6 +248,7 @@ ifeq ($(PKG_NAME),luci-base)
 
      config LUCI_LANG_$(lang)
 	   tristate "$(shell echo '$(LUCI_LANG.$(lang))' | sed -e 's/^.* (\(.*\))$$/\1/') ($(lang))")
+	   default $(shell if [ '$(lang)' == 'zh-cn' ]; then echo y; else echo n; fi))
 
    endmenu
  endef
