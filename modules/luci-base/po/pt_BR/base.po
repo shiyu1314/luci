@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 03:41+0200\n"
-"PO-Revision-Date: 2021-04-09 08:04+0000\n"
+"PO-Revision-Date: 2021-04-17 10:26+0000\n"
 "Last-Translator: Wellington Terumi Uemura <wellingtonuemura@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "openwrt/luci/pt_BR/>\n"
@@ -335,13 +335,13 @@ msgid ""
 "li></ul>"
 msgstr ""
 "<ul style=\"list-style-type:none;\"> <li><strong> Modo servidor</strong>: O "
-"roteador atribui os IPs e delega os prefixos (<abbr title=\"Prefix "
-"Delegation\">PD</abbr>) para as interfaces dos dispositivos.</li> "
-"<li><strong>modo de distribuição</strong>: O roteador distribui a "
-"configuração da interface WAN para os dispositivos. Ajuda o suporte dos "
-"links que não possuem <abbr title=\"Prefix Delegation\">PD</abbr> (delegação "
-"de prefixo).</li> <li><strong>modo híbrido</strong>: O roteador faz a "
-"combinação de servidor+distribuidor.</li></ul>"
+"roteador atribui os IPs e delega os prefixos (<abbr title=\"Prefix Delegation"
+"\">PD</abbr>) para as interfaces dos dispositivos.</li> <li><strong>modo de "
+"distribuição</strong>: O roteador distribui a configuração da interface WAN "
+"para os dispositivos. Ajuda o suporte dos links que não possuem <abbr title="
+"\"Prefix Delegation\">PD</abbr> (delegação de prefixo).</li> "
+"<li><strong>modo híbrido</strong>: O roteador faz a combinação de servidor"
+"+distribuidor.</li></ul>"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:480
 msgid "A configuration for the device \"%s\" already exists"
@@ -475,7 +475,7 @@ msgstr "Concentrador de Acesso"
 msgid "Access Point"
 msgstr "Ponto de Acceso (AP)"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:360
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:358
 msgid "Actions"
 msgstr "Ações"
 
@@ -1070,7 +1070,7 @@ msgstr "Voltar para Visão Geral"
 msgid "Back to configuration"
 msgstr "Voltar para configuração"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:363
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:361
 msgid "Backup"
 msgstr "Cópia de Segurança"
 
@@ -1078,7 +1078,7 @@ msgstr "Cópia de Segurança"
 msgid "Backup / Flash Firmware"
 msgstr "Cópia de Segurança / Gravar Firmware"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:323
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:321
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:12
 msgid "Backup file list"
 msgstr "Lista de arquivos para a cópia de segurança"
@@ -1096,7 +1096,7 @@ msgstr "Dispositivo base"
 msgid "Beacon Interval"
 msgstr "Intervalo do quadro de monitoramento (Beacon)"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:324
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:322
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:46
 msgid ""
 "Below is the determined list of files to backup. It consists of changed "
@@ -1245,7 +1245,7 @@ msgstr "A chamada falhou"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:902
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1979
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:128
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:272
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:270
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:203
 msgid "Cancel"
 msgstr "Cancelar"
@@ -1362,7 +1362,7 @@ msgstr "Verificando arquivo…"
 msgid "Checking image…"
 msgstr "Verificando imagem…"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:399
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:397
 msgid "Choose mtdblock"
 msgstr "Escolha o bloco mtd"
 
@@ -1395,7 +1395,7 @@ msgstr "Cifra"
 msgid "Cisco UDP encapsulation"
 msgstr "Encapsulamento UDP da Cisco"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:363
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:361
 msgid ""
 "Click \"Generate archive\" to download a tar archive of the current "
 "configuration files."
@@ -1403,7 +1403,7 @@ msgstr ""
 "Clique em \"Gerar arquivo\" para baixar um arquivo tar com os arquivos de "
 "configuração atuais."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:396
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:394
 msgid ""
 "Click \"Save mtdblock\" to download specified mtdblock file. (NOTE: THIS "
 "FEATURE IS FOR PROFESSIONALS! )"
@@ -1492,7 +1492,7 @@ msgid "Compute outgoing checksum (optional)."
 msgstr "Cálculo do checksum de saída (opcional)."
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4049
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:426
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:424
 msgid "Configuration"
 msgstr "Configuração"
 
@@ -1572,14 +1572,14 @@ msgstr ""
 "(qualquer, 0)"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/crontab.js:18
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:340
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:338
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:55
 msgid "Contents have been saved."
 msgstr "O conteúdo foi salvo."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:746
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:132
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:264
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:262
 msgid "Continue"
 msgstr "Continuar"
 
@@ -1641,7 +1641,7 @@ msgstr "Potência atual"
 msgid "Custom Interface"
 msgstr "Interface personalizada"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:382
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:380
 msgid ""
 "Custom files (certificates, scripts) may remain on the system. To prevent "
 "this, perform a factory-reset first."
@@ -1800,16 +1800,16 @@ msgid ""
 "address. No DHCPv6.</li> <li><strong>stateless + stateful</strong>: SLAAC. "
 "In addition, router assigns an IPv6 address to a host via DHCPv6.</li> "
 "<li><strong>stateful-only</strong>: No SLAAC. Router assigns an IPv6 address "
-"to a host via DHCPv6.</li><ul>"
+"to a host via DHCPv6.</li></ul>"
 msgstr ""
 "O padrão é stateless + stateful<br /> <ul style=\"list-style-type:none;\"> "
-"<li><strong>stateless</strong>: O roteador faz o anúncio dos prefixos, o "
-"host usa <abbr title=\"Stateless Address Auto Config\">SLAAC</abbr> para "
-"atribuir o seu próprio endereço automaticamente. No DHCPv6.</li> "
-"<li>>strong>stateless + stateful</strong>: Com SLAAC. Além disso, o roteador "
-"atribui um endereço IPv6 a um host através do DHCPv6.</li>> <li><strong"
+"<li><strong> stateless</strong>: O roteador faz o anúncio dos prefixos, o "
+"host usa <abbr title=\"Stateless Address Auto Config\">SLAAC</abbr> para a "
+"atribuição automática do seu próprio endereço. Sem o DHCPv6.</li> "
+"<li><strong>stateless + stateful</strong>: SLAAC. Além disso, o roteador "
+"atribui um endereço IPv6 a um host através do DHCPv6.</li> <li><strong"
 ">stateful-only</strong>: Sem o SLAAC. O roteador atribui um endereço IPv6 a "
-"um host através do DHCPv6.</li><ul>"
+"um host através do DHCPv6.</li></ul>"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/default-on.js:11
 msgid "Default state"
@@ -2046,7 +2046,7 @@ msgstr "A tentativa de desconexão falhou."
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4066
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4155
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1705
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:330
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:328
 msgid "Dismiss"
 msgstr "Dispensar"
 
@@ -2149,11 +2149,11 @@ msgstr "Abaixo"
 msgid "Down Delay"
 msgstr "Atraso de Descida"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:366
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:364
 msgid "Download backup"
 msgstr "Baixar a cópia de segurança"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:404
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:402
 msgid "Download mtdblock"
 msgstr "Baixar o bloco mtd"
 
@@ -2737,25 +2737,25 @@ msgstr "Versão do firmware"
 msgid "Fixed source port for outbound DNS queries"
 msgstr "Porta de origem fixa para saída de consultas DNS"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:283
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:421
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:281
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:419
 msgid "Flash image..."
 msgstr "Gravar imagem..."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:279
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:277
 msgid "Flash image?"
 msgstr "Instalar imagem?"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:411
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:409
 msgid "Flash new firmware image"
 msgstr "Gravar uma nova imagem do firmware"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:356
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:354
 msgid "Flash operations"
 msgstr "Operações na memória flash"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:286
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:288
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:290
 msgid "Flashing…"
 msgstr "Instalando…"
 
@@ -2796,8 +2796,14 @@ msgid "Force link"
 msgstr "Impor o enlace"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:255
-msgid "Force upgrade"
-msgstr "Atualização forçada"
+msgid ""
+"Force upgrade: Select 'Force upgrade' to flash the image even if the image "
+"format check fails. Use only if you are sure that the firmware is correct "
+"and meant for your device!"
+msgstr ""
+"Atualização forçada: Selecione 'Atualização forçada' para gravar a imagem "
+"ainda que a verificação do formato da imagem falhe. Use somente caso tenha "
+"certeza que o firmware está correto e é compatível com o seu dispositivo!"
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:90
 msgid "Force use of NAT-T"
@@ -2922,7 +2928,7 @@ msgstr ""
 "Gerar a <abbr title=\"Chave mestre do emparelhamento/Pairwise Master Key"
 "\">PMK</abbr> localmente"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:368
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:366
 msgid "Generate archive"
 msgstr "Gerar arquivo"
 
@@ -2940,7 +2946,7 @@ msgstr "Opção global de rede"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:57
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm:215
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:58
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:62
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:82
 msgid "Go to password configuration..."
 msgstr "Ir para a configuração de senha..."
@@ -3478,7 +3484,7 @@ msgstr "Ignorar interface"
 msgid "Ignore resolve file"
 msgstr "Ignorar o arquivo de resolução de nomes (resolv.conf)"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:419
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:417
 msgid "Image"
 msgstr "Imagem"
 
@@ -4356,9 +4362,9 @@ msgid ""
 "Advertisement, ICMPv6 Type 134\">RA</abbr>. Default is 600 seconds "
 "(<code>600</code>)."
 msgstr ""
-"O tempo máximo permitido entre o envio não solicitado do <abbr title=\"Router"
-" Advertisement, ICMPv6 Type 134\">RA</abbr>. O tempo predefinido são 600 "
-"segundos (<code>600</code>)."
+"O tempo máximo permitido entre o envio não solicitado do <abbr title="
+"\"Router Advertisement, ICMPv6 Type 134\">RA</abbr>. O tempo predefinido são "
+"600 segundos (<code>600</code>)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:893
 msgid "Maximum transmit power"
@@ -4446,9 +4452,9 @@ msgid ""
 "Advertisement, ICMPv6 Type 134\">RA</abbr>. Default is 200 seconds "
 "(<code>200</code>)."
 msgstr ""
-"O tempo mínimo permitido entre o envio não solicitado do <abbr title=\"Router"
-" Advertisement, ICMPv6 Type 134\">RA</abbr>. O tempo predefinido são 200 "
-"segundos (<code>200</code>)."
+"O tempo mínimo permitido entre o envio não solicitado do <abbr title="
+"\"Router Advertisement, ICMPv6 Type 134\">RA</abbr>. O tempo predefinido são "
+"200 segundos (<code>200</code>)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:202
 msgid "Mirror monitor port"
@@ -4656,7 +4662,7 @@ msgstr "Nome"
 msgid "Name of the new network"
 msgstr "Nome da nova rede"
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:40
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:44
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:50
 msgid "Navigation"
 msgstr "Navegação"
@@ -4808,7 +4814,7 @@ msgstr "Nenhum cache negativo"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:54
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm:212
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:55
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:59
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:79
 msgid "No password set!"
 msgstr "Nenhuma senha definida!"
@@ -5010,7 +5016,7 @@ msgstr ""
 "Somente caso o escravo ativo atual falhe e o escravo primário esteja ativo "
 "(falha, 2)"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:444
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:442
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:19
 msgid "Open list..."
 msgstr "Abrir lista..."
@@ -5500,7 +5506,7 @@ msgstr "Realizar a serialização dos pacotes na saída (opcional)."
 msgid "Perform reboot"
 msgstr "Reiniciar o sistema"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:378
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:376
 msgid "Perform reset"
 msgstr "Restaurar as configuração iniciais"
 
@@ -6034,7 +6040,7 @@ msgstr "Limpar"
 msgid "Reset Counters"
 msgstr "Reinicie os contadores"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:376
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:374
 msgid "Reset to defaults"
 msgstr "Redefina para os valores padrão"
 
@@ -6064,11 +6070,11 @@ msgstr "Reiniciar o firewall"
 msgid "Restart radio interface"
 msgstr "Reinicie a interface do rádio"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:372
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:370
 msgid "Restore"
 msgstr "Restauração"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:382
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:380
 msgid "Restore backup"
 msgstr "Restaurar cópia de segurança"
 
@@ -6137,21 +6143,22 @@ msgstr ""
 "seja, o principal), depois consulta as interfaces escravo/interno para este "
 "IP alvo antes de finalmente enviar uma mensagem <abbr title=\"Neighbour "
 "Advertisement, Type 136\">NA</abbr>. <abbr title=\"Neighbour Discovery "
-"Protocol\">O NDP</abbr> é um ARP efetivo para o IPv6. <abbr title=\"Neighbour"
-" Solicitation, Type 135\">NS</abbr> e <abbr title=\"Neighbour Advertisement, "
-"Type 136\">NA</abbr> detectam se os endereços são alcançáveis e se estão "
-"duplicados em um enlace, é um pré-requisito próprio para a auto configuração "
-"do SLAAC.<br /> <ul style=\"list-style-type:none;\"> <li><strong> "
-"desativado</strong>: Não as mensagens do <abbr title=\"Neighbour Discovery "
-"Protocol\">NDP</abbr> são enviadas pelas interfaces verdadeiras do proxy "
-"<code>ndproxy_slave</code>.</li> <li><strong>modo de distribuição</strong>: "
-"As mensagens dos proxies <abbr title=\"Neighbour Discovery Protocol\">NDP</"
-"abbr> a partir das interfaces verdadeiras do <code>master</code> para o "
-"<code>ndproxy_slave</code>. Ajuda a compatibilidade dos provedores dos "
-"enlaces sem <abbr title=\"Prefix Delegation\">PD</abbr> e para os hosts que "
-"forem um proxy do firewall.</li> <li><strong>modo híbrido</strong>: O modo "
-"de distribuição está desativado até que a interface <code>master</code> "
-"tenha um valor boleano igual a 1.</li></ul>"
+"Protocol\">O NDP</abbr> é um ARP efetivo para o IPv6. <abbr title="
+"\"Neighbour Solicitation, Type 135\">NS</abbr> e <abbr title=\"Neighbour "
+"Advertisement, Type 136\">NA</abbr> detectam se os endereços são alcançáveis "
+"e se estão duplicados em um enlace, é um pré-requisito próprio para a auto "
+"configuração do SLAAC.<br /> <ul style=\"list-style-type:none;\"> "
+"<li><strong> desativado</strong>: Não as mensagens do <abbr title="
+"\"Neighbour Discovery Protocol\">NDP</abbr> são enviadas pelas interfaces "
+"verdadeiras do proxy <code>ndproxy_slave</code>.</li> <li><strong>modo de "
+"distribuição</strong>: As mensagens dos proxies <abbr title=\"Neighbour "
+"Discovery Protocol\">NDP</abbr> a partir das interfaces verdadeiras do "
+"<code>master</code> para o <code>ndproxy_slave</code>. Ajuda a "
+"compatibilidade dos provedores dos enlaces sem <abbr title=\"Prefix "
+"Delegation\">PD</abbr> e para os hosts que forem um proxy do firewall.</li> "
+"<li><strong>modo híbrido</strong>: O modo de distribuição está desativado "
+"até que a interface <code>master</code> tenha um valor boleano igual a 1.</"
+"li></ul>"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:673
 msgid "Robustness"
@@ -6283,7 +6290,7 @@ msgstr "SWAP"
 #: modules/luci-compat/luasrc/view/cbi/error.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:26
 #: modules/luci-compat/luasrc/view/cbi/header.htm:20
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:435
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:433
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:123
 msgid "Save"
 msgstr "Salvar"
@@ -6298,11 +6305,11 @@ msgstr "Salvar & Aplicar"
 msgid "Save error"
 msgstr "Erro ao salvar"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:406
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:404
 msgid "Save mtdblock"
 msgstr "Salvar o bloco mtd"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:396
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:394
 msgid "Save mtdblock contents"
 msgstr "Salvar o conteúdo do bloco mtd"
 
@@ -6326,16 +6333,6 @@ msgstr "Seção removida"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:331
 msgid "See \"mount\" manpage for details"
 msgstr "Veja o manual (man) do comando \"mount\" para detalhes"
-
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:257
-msgid ""
-"Select 'Force upgrade' to flash the image even if the image format check "
-"fails. Use only if you are sure that the firmware is correct and meant for "
-"your device!"
-msgstr ""
-"Selecione 'Atualização forçada' para gravar a imagem ainda que a verificação "
-"do formato da imagem falhe. Use somente caso tenha certeza que o firmware "
-"está correto e é compatível com o seu dispositivo!"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2641
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2781
@@ -6461,7 +6458,7 @@ msgstr "Intervalo de guarda curto"
 msgid "Short Preamble"
 msgstr "Preâmbulo curto"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:442
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:440
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:18
 msgid "Show current backup file list"
 msgstr "Mostra a lista atual de arquivos para a cópia de segurança"
@@ -6526,12 +6523,12 @@ msgstr "Tamanho do dispositivo ZRam em megabytes"
 msgid "Skip"
 msgstr "Pular"
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:36
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:40
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:46
 msgid "Skip to content"
 msgstr "Pular para o conteúdo"
 
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:35
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:39
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:45
 msgid "Skip to navigation"
 msgstr "Pular para a navegação"
@@ -6557,7 +6554,7 @@ msgstr "Desculpe o objeto solicitado não foi encontrado."
 msgid "Sorry, the server encountered an unexpected error."
 msgstr "Desculpe, o servidor encontrou um erro inesperado."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:414
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:412
 msgid ""
 "Sorry, there is no sysupgrade support present; a new firmware image must be "
 "flashed manually. Please refer to the wiki for device specific install "
@@ -7350,12 +7347,12 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:603
 msgid ""
 "The maximum hops to be published in <abbr title=\"Router Advertisement\">RA</"
-"abbr> messages.<br>Default is 0 (<code>0</code>), meaning unspecified. Max "
+"abbr> messages.<br />Default is 0 (<code>0</code>), meaning unspecified. Max "
 "255."
 msgstr ""
-"A quantidade máxima dos saltos que serão publicados nas mensagens do <abbr "
-"title=\"Router Advertisement\">RA</abbr>.<br>A predefinição é 0 "
-"(<code>0</code>) que significa indeterminado. Com o máximo de 255."
+"A quantidade de saltos máximos que serão publicados nas mensagens <abbr "
+"title=\"Router Advertisement\">RA</abbr>.<br />O padrão é 0 (<code>0</code>)"
+", ou seja, não definido. O valor máximo é 255."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1949
 msgid "The network name is already used"
@@ -7418,7 +7415,7 @@ msgstr ""
 "O sistema está apagando agora a partição da configuração e irá reiniciar "
 "quando terminado."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:291
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:289
 msgid ""
 "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a "
 "few minutes before you try to reconnect. It might be necessary to renew the "
@@ -7443,7 +7440,7 @@ msgstr ""
 msgid "The system password has been successfully changed."
 msgstr "A senha do sistema foi alterada com sucesso."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:317
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:315
 msgid "The sysupgrade command failed with code %d"
 msgstr "O comando sysupgrade falhou com o código %d"
 
@@ -7491,7 +7488,7 @@ msgstr "Não há alterações a serem aplicadas"
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm:55
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm:213
-#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:56
+#: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:60
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:80
 msgid ""
 "There is no password set on this router. Please configure a root password to "
@@ -7522,7 +7519,7 @@ msgstr ""
 "'server=1.2.3.4' para servidores específicos ou completos de domínio <abbr "
 "title=\"Domain Name System\">DNS</abbr> servidores."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:426
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:424
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:16
 msgid ""
 "This is a list of shell glob patterns for matching files and directories to "
@@ -7654,7 +7651,7 @@ msgstr "Fuso horário"
 msgid "To login…"
 msgstr "Para fazer login…"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:372
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:370
 msgid ""
 "To restore configuration files, you can upload a previously generated backup "
 "archive here. To reset the firmware to its initial state, click \"Perform "
@@ -7817,7 +7814,7 @@ msgid "Unable to restart firewall: %s"
 msgstr "Não foi possível reiniciar o firewall: % s"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/crontab.js:20
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:342
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:340
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:57
 msgid "Unable to save contents: %s"
 msgstr "Não foi possível salvar os conteúdos: %s"
@@ -7914,7 +7911,7 @@ msgstr "Atraso de Envio"
 msgid "Upload"
 msgstr "Envio"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:413
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:411
 msgid ""
 "Upload a sysupgrade-compatible image here to replace the running firmware."
 msgstr ""
@@ -7923,7 +7920,7 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:138
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:169
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:384
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:382
 msgid "Upload archive..."
 msgstr "Enviar arquivo..."
 
@@ -9003,6 +9000,45 @@ msgstr "sim"
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:20
 msgid "« Back"
 msgstr "« Voltar"
+
+#~ msgid "Force upgrade"
+#~ msgstr "Atualização forçada"
+
+#~ msgid ""
+#~ "Select 'Force upgrade' to flash the image even if the image format check "
+#~ "fails. Use only if you are sure that the firmware is correct and meant "
+#~ "for your device!"
+#~ msgstr ""
+#~ "Selecione 'Atualização forçada' para gravar a imagem ainda que a "
+#~ "verificação do formato da imagem falhe. Use somente caso tenha certeza "
+#~ "que o firmware está correto e é compatível com o seu dispositivo!"
+
+#~ msgid ""
+#~ "Default is stateless + stateful<br /> <ul style=\"list-style-type:none;"
+#~ "\"> <li><strong>stateless</strong>: Router advertises prefixes, host uses "
+#~ "<abbr title=\"Stateless Address Auto Config\">SLAAC</abbr> to self assign "
+#~ "its own address. No DHCPv6.</li> <li><strong>stateless + stateful</"
+#~ "strong>: SLAAC. In addition, router assigns an IPv6 address to a host via "
+#~ "DHCPv6.</li> <li><strong>stateful-only</strong>: No SLAAC. Router assigns "
+#~ "an IPv6 address to a host via DHCPv6.</li><ul>"
+#~ msgstr ""
+#~ "O padrão é stateless + stateful<br /> <ul style=\"list-style-type:none;"
+#~ "\"> <li><strong>stateless</strong>: O roteador faz o anúncio dos "
+#~ "prefixos, o host usa <abbr title=\"Stateless Address Auto Config\">SLAAC</"
+#~ "abbr> para atribuir o seu próprio endereço automaticamente. No DHCPv6.</"
+#~ "li> <li>>strong>stateless + stateful</strong>: Com SLAAC. Além disso, o "
+#~ "roteador atribui um endereço IPv6 a um host através do DHCPv6.</li>> "
+#~ "<li><strong>stateful-only</strong>: Sem o SLAAC. O roteador atribui um "
+#~ "endereço IPv6 a um host através do DHCPv6.</li><ul>"
+
+#~ msgid ""
+#~ "The maximum hops to be published in <abbr title=\"Router Advertisement"
+#~ "\">RA</abbr> messages.<br>Default is 0 (<code>0</code>), meaning "
+#~ "unspecified. Max 255."
+#~ msgstr ""
+#~ "A quantidade máxima dos saltos que serão publicados nas mensagens do "
+#~ "<abbr title=\"Router Advertisement\">RA</abbr>.<br>A predefinição é 0 "
+#~ "(<code>0</code>) que significa indeterminado. Com o máximo de 255."
 
 #~ msgid "Always announce default router"
 #~ msgstr "Sempre anuncie o roteador padrão"
